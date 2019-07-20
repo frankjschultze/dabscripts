@@ -10,7 +10,8 @@
   ncdu vim ntp links cpufrequtils  libfftw3-dev  libcurl4-openssl-dev/
   libmagickwand-dev  libvlc-dev vlc-data  libfaad2 libfaad-dev  python-mako python-requests
   sudo apt-get -y install libzmq5-dev libzmq5
-  edit soursec.list uncomment - deb-src http://archive.ubuntu.com/ubuntu bionic universe
+  #edit soursec.list uncomment - deb-src http://archive.ubuntu.com/ubuntu bionic universe
+  sudo apt-get update
   sudo apt-get -y build-dep uhd
   sudo vi /etc/apt/sources.list
   sudo apt update
